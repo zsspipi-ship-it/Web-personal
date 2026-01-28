@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Website Kelas X PPLG</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f6f8;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            padding: 30px;
+            text-align: center;
+            animation: turun 1.2s ease;
+        }
+
+        @keyframes turun {
+            from { opacity: 0; transform: translateY(-30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        
+        section {
+            padding: 30px;
+        }
+
+        h2 {
+            color: #1e3c72;
+        }
+
+        /* GALERI */
+        .galeri {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+        }
+
+        .kartu {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+            padding: 15px;
+            transition: transform 0.3s;
+        }
+
+        .kartu:hover {
+            transform: scale(1.05);
+        }
+
+        .kartu img {
+            width: 90%;
+            height: 140px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        /* BERITA */
+        .berita {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #1e3c72;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Website Kelas X PPLG</h1>
+    <p>SMK • Pengembangan Perangkat Lunak & Gim</p>
+</header>
+
+<!-- GAMBAR ATAS 16:9 -->
+<div class="banner">
+    <img src="image_20260128_230521.png" alt="Banner Coding">
+</div>
+
+<section>
+    <h2>👨‍🎓 Galeri Siswa / Siswi (22 Orang)</h2>
+    <div class="galeri">
+
+        <div class="kartu"><img src="0086347466.png"><p>Nama Siswa 1</p></div>
+        <div class="kartu"><img src="0091092011.png"><p>Nama Siswa 2</p></div>
+        <div class="kartu"><img src="0092199901.png"><p>Nama Siswa 3</p></div>
+        <div class="kartu"><img src="0092903515.png"><p>Nama Siswa 4</p></div>
+        <div class="kartu"><img src="0093685503.png"><p>Nama Siswa 5</p></div>
+
+        <div class="kartu"><img src="0095907944.png"><p>Nama Siswa 6</p></div>
+        <div class="kartu"><img src="0096999376.png"><p>Nama Siswa 7</p></div>
+        <div class="kartu"><img src="0098190147.png"><p>Nama Siswa 8</p></div>
+        <div class="kartu"><img src="0098633879.png"><p>Nama Siswa 9</p></div>
+        <div class="kartu"><img src="0099569472.png"><p>Nama Siswa 10</p></div>
+
+        <div class="kartu"><img src="0101036805.png"><p>Nama Siswa 11</p></div>
+        <div class="kartu"><img src="0101075157.png"><p>Nama Siswa 12</p></div>
+        <div class="kartu"><img src="0101572696.png"><p>Nama Siswa 13</p></div>
+        <div class="kartu"><img src="0102166445.png"><p>Nama Siswa 14</p></div>
+        <div class="kartu"><img src="0104308086.png"><p>Nama Siswa 15</p></div>
+
+        <div class="kartu"><img src="0104500029.png"><p>Nama Siswa 16</p></div>
+        <div class="kartu"><img src="0104605982.png"><p>Nama Siswa 17</p></div>
+        <div class="kartu"><img src="0105308932.png"><p>Nama Siswa 18</p></div>
+        <div class="kartu"><img src="0106936258.png"><p>Nama Siswa 19</p></div>
+        <div class="kartu"><img src="0108982266.png"><p>Nama Siswa 20</p></div>
+
+        <div class="kartu"><img src="0109233978.png"><p>Nama Siswa 21</p></div>
+        <div class="kartu"><img src="0139965169.png"><p>Nama Siswa 22</p></div>
+
+    </div>
+</section>
+
+<section>
+    <h2>📰 Berita Dunia Pemrograman</h2>
+
+    <div class="berita">
+        <h3>Pak Prabowo: Coding Penting untuk Masa Depan Bangsa</h3>
+        <p>
+            Presiden <b>Prabowo Subianto</b> menegaskan pentingnya penguasaan
+            <b>teknologi dan pemrograman (coding)</b> bagi generasi muda Indonesia
+            untuk menghadapi era digital dan industri 4.0.
+        </p>
+        <p>
+            Beliau menyampaikan bahwa kemampuan coding, logika, dan pemahaman
+            teknologi akan menjadi bekal utama dalam menciptakan
+            <b>sumber daya manusia yang unggul, mandiri, dan berdaya saing global</b>.
+        </p>
+        <p>
+            Jurusan <b>PPLG / RPL</b> di SMK memiliki peran strategis dalam
+            mencetak programmer muda yang siap kerja dan siap berinovasi.
+        </p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Kelas X PPLG</p>
+</footer>
+
+</body>
+</html>
